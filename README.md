@@ -50,8 +50,8 @@ titanic-randomforest-prediction
 **notebooks/ – Notebook with preprocessing, model training, and submission steps**
 ------
 **requirements.txt – Python dependencies**
+----------
 
---------------
 
 **🚀 Usage Instructions**
 
