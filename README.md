@@ -1,33 +1,26 @@
 🚢 Titanic Random Forest Prediction
 
-Predict the survival of passengers on the Titanic using a Random Forest Classifier. This repository demonstrates a full machine learning workflow, including data preprocessing, model training, evaluation, and generating submission-ready predictions.
+This repository demonstrates a machine learning workflow to predict the survival of passengers on the Titanic using a Random Forest Classifier.
 
-📝 Project Overview
+📌 Project Overview
 
-Objective: Predict whether a passenger survived the Titanic disaster.
+During this project, we:
 
-Dataset: Titanic train and test datasets.
+Loaded and explored Titanic train and test datasets
 
-Model: Random Forest Classifier
+Preprocessed data (handled missing values, encoded categorical features)
 
-Validation Accuracy: ~79.88%
+Engineered features for better model performance
 
-📂 Files
+Trained a Random Forest model
 
-data/train.csv – Training dataset
+Evaluated model accuracy (~79.88%)
 
-data/test.csv – Test dataset
+Generated submission-ready predictions
 
-notebooks/submission-csv.ipynb – Python notebook with all preprocessing, model training, and submission steps
+🛠️ Technologies Used
 
-⚙️ Dependencies
-
-Install the required packages using:
-
-pip install -r requirements.txt
-
-
-Python 3.x
+Python 3.x 🐍
 
 Pandas 🐼
 
@@ -38,6 +31,23 @@ Scikit-learn 🧠
 Seaborn 📊
 
 Matplotlib 📉
+
+📁 Repository Structure
+titanic-randomforest-prediction
+┣ 📂 data
+┃  ┣ 📜 train.csv
+┃  ┗ 📜 test.csv
+┣ 📂 notebooks
+┃  ┗ 📜 submission-csv.ipynb
+┣ 📜 README.md
+┗ 📜 requirements.txt
+
+
+data/ – Contains train and test datasets
+
+notebooks/ – Notebook with preprocessing, model training, and submission steps
+
+requirements.txt – Python dependencies
 
 🚀 Usage Instructions
 
@@ -51,8 +61,13 @@ Navigate to the project folder
 cd Titanic-RandomForest-Prediction
 
 
+Install dependencies
+
+pip install -r requirements.txt
+
+
 Open the notebook
-Launch submission-csv.ipynb using Jupyter Notebook or JupyterLab.
+Launch submission-csv.ipynb in Jupyter Notebook or JupyterLab.
 
 Run all cells
 The notebook will:
@@ -65,21 +80,32 @@ Encode categorical features 🔡
 
 Train a Random Forest model 🌲
 
-Evaluate model performance 📈
+Evaluate performance 📈
 
-Generate the submission file 📝
+Generate submission file 📝
 
 Submission File
-After running all cells, submission.csv will be created in the working directory. This CSV is ready for submission. ✅
+submission.csv will be created in the working directory. Ready for submission. ✅
 
-📝 Notes
+✨ Key Learnings
 
-Both train.csv and test.csv are included in the data/ folder.
+Hands-on experience with data preprocessing and feature engineering
 
-All preprocessing steps are implemented in the notebook.
+Building and evaluating Random Forest models
 
-This repository is intended for educational purposes and demonstrates a complete machine learning workflow.
+Generating submission-ready CSV files for competitions
 
-💡 About
+Understanding machine learning workflow from scratch
 
-“A machine learning model using Random Forest to predict survival of Titanic passengers. Includes data preprocessing, feature engineering, and submission-ready predictions.”
+👩‍💻 Developed By
+
+Pooja Maurya
+GitHub
+
+📌 Notes
+
+Both train.csv and test.csv are included in data/
+
+All preprocessing is implemented in the notebook
+
+This repository is for educational purposes
