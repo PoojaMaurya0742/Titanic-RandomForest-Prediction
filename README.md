@@ -1,44 +1,45 @@
-Titanic Random Forest Prediction
+🚢 Titanic Random Forest Prediction
 
-This project predicts the survival of passengers on the Titanic using a Random Forest Classifier. The notebook demonstrates a complete machine learning workflow, including data preprocessing, model training, and prediction generation.
+Predict the survival of passengers on the Titanic using a Random Forest Classifier. This repository demonstrates a full machine learning workflow, including data preprocessing, model training, evaluation, and generating submission-ready predictions.
 
-Project Overview
+📝 Project Overview
 
-Objective: Predict survival of Titanic passengers.
+Objective: Predict whether a passenger survived the Titanic disaster.
 
 Dataset: Titanic train and test datasets.
 
-Model: Random Forest Classifier.
+Model: Random Forest Classifier
 
-Accuracy: ~79.88% on validation set.
+Validation Accuracy: ~79.88%
 
-Files
+📂 Files
 
-data/train.csv : Training dataset
+data/train.csv – Training dataset
 
-data/test.csv : Test dataset
+data/test.csv – Test dataset
 
-notebooks/submission-csv.ipynb : Full Python notebook with preprocessing, model training, evaluation, and submission generation
+notebooks/submission-csv.ipynb – Python notebook with all preprocessing, model training, and submission steps
 
-Dependencies
+⚙️ Dependencies
 
-Python 3.x
-
-Pandas
-
-NumPy
-
-Scikit-learn
-
-Seaborn
-
-Matplotlib
-
-Install dependencies via:
+Install the required packages using:
 
 pip install -r requirements.txt
 
-Usage Instructions
+
+Python 3.x
+
+Pandas 🐼
+
+NumPy 🔢
+
+Scikit-learn 🧠
+
+Seaborn 📊
+
+Matplotlib 📉
+
+🚀 Usage Instructions
 
 Clone the repository
 
@@ -56,25 +57,29 @@ Launch submission-csv.ipynb using Jupyter Notebook or JupyterLab.
 Run all cells
 The notebook will:
 
-Load and preprocess the data
+Load and preprocess the data 🗂️
 
-Handle missing values
+Handle missing values 🩹
 
-Encode categorical features
+Encode categorical features 🔡
 
-Train a Random Forest model
+Train a Random Forest model 🌲
 
-Evaluate model performance
+Evaluate model performance 📈
 
-Generate the submission file
+Generate the submission file 📝
 
-Submission file
-After running all cells, submission.csv will be created in the working directory. This CSV is ready for submission.
+Submission File
+After running all cells, submission.csv will be created in the working directory. This CSV is ready for submission. ✅
 
-Notes
+📝 Notes
 
 Both train.csv and test.csv are included in the data/ folder.
 
 All preprocessing steps are implemented in the notebook.
 
-This repository is intended for educational purposes and to demonstrate a complete machine learning workflow.
+This repository is intended for educational purposes and demonstrates a complete machine learning workflow.
+
+💡 About
+
+“A machine learning model using Random Forest to predict survival of Titanic passengers. Includes data preprocessing, feature engineering, and submission-ready predictions.”
