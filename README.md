@@ -84,13 +84,13 @@ Launch submission-csv.ipynb using Jupyter Notebook or JupyterLab.
 
 -----------------
 
-**👩‍💻 Developed By
+**👩‍💻 Developed By**
 
-Pooja Maurya
+**- Pooja Maurya**
 
 -------------
 
-🔗 GitHub: https://github.com/PoojaMaurya0742/**
+**🔗 GitHub: https://github.com/PoojaMaurya0742/**
 
 -----------------
 
