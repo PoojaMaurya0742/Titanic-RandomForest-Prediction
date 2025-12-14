@@ -46,9 +46,7 @@ titanic-randomforest-prediction
 -----------
 
 **data/ – Contains train and test datasets**
------
 **notebooks/ – Notebook with preprocessing, model training, and submission steps**
-------
 **requirements.txt – Python dependencies**
 
 ---------------
