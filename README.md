@@ -6,19 +6,19 @@ This repository demonstrates a machine learning workflow to predict the survival
 
 **📌 Project Overview**
 
-During this project, we:
+- During this project, we:
 
-Loaded and explored Titanic train and test datasets
+- Loaded and explored Titanic train and test datasets
 
-Preprocessed data (handled missing values, encoded categorical features)
+- Preprocessed data (handled missing values, encoded categorical features)
 
-Engineered features for better model performance
+- Engineered features for better model performance
 
-Trained a Random Forest model
+- Trained a Random Forest model
 
-Evaluated model accuracy (~79.88%)
+- Evaluated model accuracy (~79.88%)
 
-Generated submission-ready predictions
+- Generated submission-ready predictions
 
 -----------------
 
@@ -45,11 +45,11 @@ titanic-randomforest-prediction
 
 -----------
 
-**data/ – Contains train and test datasets
+**data/ – Contains train and test datasets**
 -----
-notebooks/ – Notebook with preprocessing, model training, and submission steps
+**notebooks/ – Notebook with preprocessing, model training, and submission steps**
 ------
-requirements.txt – Python dependencies**
+**requirements.txt – Python dependencies**
 
 ---------------
 
