@@ -45,30 +45,29 @@ titanic-randomforest-prediction
 
 -----------
 
-**data/ – Contains train and test datasets**
+**data/ – Contains train and test datasets
 -----
-**notebooks/ – Notebook with preprocessing, model training, and submission steps**
+notebooks/ – Notebook with preprocessing, model training, and submission steps
 ------
-**requirements.txt – Python dependencies**
-----------
-
-
-**🚀 Usage Instructions**
-
-*-Clone the repository**
-
-**git clone https://github.com/PoojaMaurya0742/Titanic-RandomForest-Prediction.git**
+requirements.txt – Python dependencies**
 
 ---------------
 
-**Navigate to the project folder**
+🚀 Usage Instructions
+1️⃣ Clone the repository
+git clone https://github.com/PoojaMaurya0742/Titanic-RandomForest-Prediction.git
 
-- cd Titanic-RandomForest-Prediction
-- Install dependencies
-- pip install -r requirements.txt
-- Open the notebook
-- Launch submission-csv.ipynb in Jupyter Notebook or JupyterLab.
-- Run all cells
+2️⃣ Navigate to the project folder
+cd Titanic-RandomForest-Prediction
+
+3️⃣ Install dependencies
+pip install -r requirements.txt
+
+4️⃣ Open the notebook
+
+Launch submission-csv.ipynb using Jupyter Notebook or JupyterLab.
+
+5️⃣ Run all cells
 
 **The notebook will:**
 - Load and preprocess the data 🗂️
@@ -78,8 +77,9 @@ titanic-randomforest-prediction
 - Evaluate performance 📈
 - Generate submission file 📝
 
-**Submission File**
-submission.csv will be created in the working directory. Ready for submission. ✅
+**📄Submission File**
+- After running all cells, submission.csv will be created in the working directory
+- The file is ready for competition submission ✅
 
 -----------
 
@@ -92,10 +92,10 @@ submission.csv will be created in the working directory. Ready for submission. �
 
 -----------------
 
-**👩‍💻 Developed By**
+**👩‍💻 Developed By
 
-**- Pooja Maurya**
-**GitHub profile:-https://github.com/PoojaMaurya0742/**
+Pooja Maurya
+🔗 GitHub: https://github.com/PoojaMaurya0742/**
 
 -----------------
 
